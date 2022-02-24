@@ -1,0 +1,132 @@
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.sameColor{
+    color: #FEA116;
+}
+
+
+#logo{
+    color: #FEA116;
+}
+
+.nav-item {}
+.nav-item a{
+    font-size: 19px;
+    font-weight: 600;
+}
+.nav-item a:hover{
+    background-color: #FEA116;
+    border-radius: 5px;
+}
+.btnStyle{
+    background-color: #FEA116;
+    padding: 8px 50px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* header section */
+.header-container{
+    padding: 80px;;
+}
+.header-text {
+    margin-top: 80px;
+}
+.header-text h1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.headerImg{
+    margin-top: 80px;
+}
+
+/* service section */
+
+
+.serviceCard:hover .card{
+    background-color: orange;
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+/* about section */
+.aboutText h3{
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+}
+
+/* menuSection */
+.menuText p {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.menuText h6{
+    margin-top: -15px;
+    font-size: 13px;
+}
+.itemText p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+
+.itemImg img{
+    width: 90px;
+    border-radius: 5px;
+}
+.itemPrice h4{
+    color: #FEA116;
+}
+
+/* submit btn */
+.inputColor{
+    background-color:  floralwhite;
+}
+
+#submitBtn{
+    background-color: orange;
+    padding: 3px 184px;
+    margin-top: 19px;
+}
+
+.bookImg img{
+    height: 506px;
+    border-radius: 5px;
+}
+
+.semeBtn {
+    border-radius: 38px 38px 0 0;
+    padding: 15px;
+    font-size: 24px;
+    background-color: #FEA116;
+    border: none;
+    margin-bottom: -15px;
+    width: 45px;
+}
+
+.company ul{}
+.company ul li{
+    list-style: none;
+    color: white;
+    margin-top: 6px;
+}
+.company ul li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#liStyle{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btnStyle2 {
+    background: orange;
+    margin-left: 12px;
+    padding: 7px 24px;
+    font-weight: bolder;
+    color: white;
+}

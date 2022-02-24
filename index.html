@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran</title>
+    <!-- font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,600;0,700;0,800;0,900;1,300;1,600;1,700;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstarp link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- main.css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container-fluid">
+            <a id="logo" class="navbar-brand fs-1 fw-bolder" href="#"> <span class="fw-bold"> <i
+                        class="fa fa-utensils me-3"></i></span>
+                Restoran</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 ms-lg-5 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Product</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btnStyle fw-bolder text-white" type="submit">BOOK A TABLE</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="header-container bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="header-text text-white">
+                            <h1 class="fw-bolder fst-italic mb-4">Enjoy Our Delicious Meal</h1>
+                            <p class="mt-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                                Aliqu diam amet
+                                diam et eos.
+                                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat
+                                amet
+
+                            </p>
+                            <button class="btnStyle btn py-3 text-white mt-4">BOOK A TABLE</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="headerImg">
+                            <img class="w-100" src="./img/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="service-container py-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="serviceCard">
+                            <div class="card p-1 text-center border-0 shadow-lg">
+                                <span class="card-img-top display-3"><i class="fas fa-user"></i></span>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Master Chefs</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="serviceCard">
+                            <div class="card p-1 text-center border-0 shadow-lg">
+                                <span class="card-img-top display-3"><i class="fa fa-utensils me-3"></i></span>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Quality Food</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="serviceCard">
+                            <div class="card p-1 text-center border-0 shadow-lg">
+                                <span class="card-img-top display-3"><i class="fas fa-shopping-cart"></i></span>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Online Order
+                                    </h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="serviceCard">
+                            <div class="card p-1 text-center border-0 shadow-lg">
+                                <span class="card-img-top display-3"><i class="fas fa-headphones-alt"></i></span>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">24/7 Service</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a
+                                        natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="aboutSection py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="bigImg">
+                                    <img class="mw-100 rounded-1" src="./img/about-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="smallImg">
+                                    <img class="w-75 mt-5 rounded-1" src="./img/about-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mt-4">
+                                <div class="smallImg">
+                                    <img class="w-75 ms-5 rounded-1" src="./img/about-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="smallImg">
+                                    <img class="mw-100 mt-5 rounded-1" src="./img/about-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="aboutText">
+                            <h3 class="mb-3 sameColor fw-bold">About Us</h3>
+                            <h1 class="mb-3">Wellcome to<span class="sameColor fw-bold"><i
+                                        class="fa fa-utensils"></i></span>
+                                Restoran </h1>
+
+                            <p class="text-muted">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                                diam amet diam et eos
+                                erat ipsum et lorem et sit, sed stet lorem sit.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil debitis
+                                accusamus praesentium dolorum sunt enim.
+                            </p>
+
+                            <p class="text-muted">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                                diam amet diam et eos.
+                                Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat
+                                amet.Hi i am Milon roy.I am from bangladesh. bangladesh is small countery. many peple in
+                                our countery.
+                            </p>
+                            <button class="btn btnStyle mt-3">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="menuSection py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <h2 class="text-center sameColor mb-3 fw-bold fst-italic">Food menu</h2>
+                            <h1 class="text-center mb-3">Most Populer items</h1>
+
+                            <div class="col-md-4">
+                                <div class="populer d-flex">
+                                    <div class="icon">
+                                        <span class="fs-1 sameColor"><i class="fas fa-mug-hot"></i></span>
+                                    </div>
+                                    <div class="menuText ms-3">
+                                        <p>Populer</p>
+                                        <h6>Brekfast</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="populer d-flex">
+                                    <div class="icon">
+                                        <span class="fs-1 sameColor"><i class="fas fa-pizza-slice"></i></span>
+                                    </div>
+                                    <div class="menuText ms-3">
+                                        <p>Special</p>
+                                        <h6>Launch</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="populer d-flex">
+                                    <div class="icon">
+                                        <span class="fs-1 sameColor"><i class="fas fa-hamburger"></i></span>
+                                    </div>
+                                    <div class="menuText ms-3">
+                                        <p>Lovely</p>
+                                        <h6>Dinner</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mt-5">
+                        <div class="serViceItem d-flex py-3">
+                            <div class="itemImg">
+                                <img src="./img/menu-1.jpg" alt="">
+                            </div>
+                            <div class="itemText d-flex">
+                                <div class="itemName ms-4">
+                                    <h5 class="fw-bold">Chicken Burger</h5>
+                                    <hr>
+                                    <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                </div>
+                                <div class="itemPrice ms-5">
+                                    <h4 class="fw-bold">$115</h4>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="serViceItem d-flex py-3">
+                            <div class="itemImg">
+                                <img src="./img/menu-2.jpg" alt="">
+                            </div>
+                            <div class="itemText d-flex">
+                                <div class="itemName ms-4">
+                                    <h5 class="fw-bold">Chicken Burger</h5>
+                                    <hr>
+                                    <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                </div>
+                                <div class="itemPrice ms-5">
+                                    <h4 class="fw-bold">$115</h4>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="serViceItem d-flex py-3">
+                            <div class="itemImg">
+                                <img src="./img/menu-3.jpg" alt="">
+                            </div>
+                            <div class="itemText d-flex">
+                                <div class="itemName ms-4">
+                                    <h5 class="fw-bold">Chicken Burger</h5>
+                                    <hr>
+                                    <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                </div>
+                                <div class="itemPrice ms-5">
+                                    <h4 class="fw-bold">$115</h4>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="serViceItem d-flex py-3">
+                            <div class="itemImg">
+                                <img src="./img/menu-4.jpg" alt="">
+                            </div>
+                            <div class="itemText d-flex">
+                                <div class="itemName ms-4">
+                                    <h5 class="fw-bold">Chicken Burger</h5>
+                                    <hr>
+                                    <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                </div>
+                                <div class="itemPrice ms-5">
+                                    <h4 class="fw-bold">$115</h4>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <div class="serViceItem d-flex py-3">
+                            <div class="itemImg">
+                                <img src="./img/menu-1.jpg" alt="">
+                            </div>
+                            <div class="itemText d-flex">
+                                <div class="itemName ms-4">
+                                    <h5 class="fw-bold">Chicken Burger</h5>
+                                    <hr>
+                                    <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                </div>
+                                <div class="itemPrice ms-5">
+                                    <h4 class="fw-bold">$115</h4>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="serViceItem d-flex py-3">
+                            <div class="itemImg">
+                                <img src="./img/menu-5.jpg" alt="">
+                            </div>
+                            <div class="itemText d-flex">
+                                <div class="itemName ms-4">
+                                    <h5 class="fw-bold">Chicken Burger</h5>
+                                    <hr>
+                                    <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                </div>
+                                <div class="itemPrice ms-5">
+                                    <h4 class="fw-bold">$115</h4>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="serViceItem d-flex py-3">
+                            <div class="itemImg">
+                                <img src="./img/menu-6.jpg" alt="">
+                            </div>
+                            <div class="itemText d-flex">
+                                <div class="itemName ms-4">
+                                    <h5 class="fw-bold">Chicken Burger</h5>
+                                    <hr>
+                                    <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                </div>
+                                <div class="itemPrice ms-5">
+                                    <h4 class="fw-bold">$115</h4>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="serViceItem d-flex py-3">
+                            <div class="itemImg">
+                                <img src="./img/menu-7.jpg" alt="">
+                            </div>
+                            <div class="itemText d-flex">
+                                <div class="itemName ms-4">
+                                    <h5 class="fw-bold">Chicken Burger</h5>
+                                    <hr>
+                                    <p>Ipsum ipsum clita erat amet dolor justo diam</p>
+                                </div>
+                                <div class="itemPrice ms-5">
+                                    <h4 class="fw-bold">$115</h4>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="bookSection py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="bookImg">
+                            <img class="mw-100" src="./img/video.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="submitArea bg-dark p-4 rounded-2">
+                            <h5 class="text-white mb-2">Reservation</h5>
+                            <h1 class="text-white mb-3">Book A Table Online</h1>
+                            <form action="#">
+
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control p-3" placeholder="Your name"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="email" class="form-control p-3" placeholder="Your Email"
+                                            aria-label="Last name">
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col">
+                                        <input type="text" class="form-control p-3" placeholder="Dete & Time"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <select id="inputState" class="form-select p-3">
+                                            <option selected>No of Peple...</option>
+                                            <option>peple1</option>
+                                            <option>peple2</option>
+                                            <option>peple3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <textarea placeholder="Special Request" class="form-control mt-4" name="" id=""
+                                    cols="30" rows="4"></textarea>
+
+                                <a target="blank" id="submitBtn" class="btn fw-bolder text-white"
+                                    href="https://www.facebook.com/profile.php?id=100060870383690">BOOK NOW</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="teamMembers-section py-5">
+            <div class="container">
+                <div class="row">
+                    <h4 class="text-center mb-2 sameColor fst-italic fw-bold">Team Members</h4>
+                    <h2 class="text-center mb-5">Our Master Chefs</h2>
+                    <div class="col-md-3">
+                        <div class="members">
+                            <div class="card border-0 shadow-lg pt-3">
+                                <img src="./img/team-1.jpg" class="card-img-top rounded-circle w-75 m-auto"
+                                    alt="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-center">Full Name</h5>
+                                    <p class="card-text text-center text-muted">Designation</p>
+
+                                    <div class="butons d-flex justify-content-around">
+                                        <div class="faceBook">
+                                            <button class="semeBtn"> <span><i class="fab fa-facebook-f"></i></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="ins">
+                                            <button class="semeBtn"> <span> <i class="fab fa-instagram"></i></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="tew">
+                                            <button class="semeBtn"> <span> <i class="fab fa-twitter"></i> </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="members">
+                            <div class="card border-0 shadow-lg pt-3">
+                                <img src="./img/team-2.jpg" class="card-img-top rounded-circle w-75 m-auto"
+                                    alt="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-center">Full Name</h5>
+                                    <p class="card-text text-center text-muted">Designation</p>
+
+                                    <div class="butons d-flex justify-content-around">
+                                        <div class="faceBook">
+                                            <button class="semeBtn"> <span><i class="fab fa-facebook-f"></i></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="ins">
+                                            <button class="semeBtn"> <span> <i class="fab fa-instagram"></i></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="tew">
+                                            <button class="semeBtn"> <span> <i class="fab fa-twitter"></i> </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="members">
+                            <div class="card border-0 shadow-lg pt-3">
+                                <img src="./img/team-3.jpg" class="card-img-top rounded-circle w-75 m-auto"
+                                    alt="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-center">Full Name</h5>
+                                    <p class="card-text text-center text-muted">Designation</p>
+
+                                    <div class="butons d-flex justify-content-around">
+                                        <div class="faceBook">
+                                            <button class="semeBtn"> <span><i class="fab fa-facebook-f"></i></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="ins">
+                                            <button class="semeBtn"> <span> <i class="fab fa-instagram"></i></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="tew">
+                                            <button class="semeBtn"> <span> <i class="fab fa-twitter"></i> </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="members">
+                            <div class="card border-0 shadow-lg pt-3">
+                                <img src="./img/team-4.jpg" class="card-img-top rounded-circle w-75 m-auto"
+                                    alt="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-center">Full Name</h5>
+                                    <p class="card-text text-center text-muted">Designation</p>
+
+                                    <div class="butons d-flex justify-content-around">
+                                        <div class="faceBook">
+                                            <button class="semeBtn"> <span><i class="fab fa-facebook-f"></i></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="ins">
+                                            <button class="semeBtn"> <span> <i class="fab fa-instagram"></i></span>
+                                            </button>
+                                        </div>
+
+                                        <div class="tew">
+                                            <button class="semeBtn"> <span> <i class="fab fa-twitter"></i> </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="company">
+                        <h5 class="sameColor fst-italic fw-bold ms-4 mb-3">Company</h5>
+                        <ul>
+                            <li> <span id="liStyle"><i class="fas fa-angle-left"></i></span> About Us</li>
+                            <li> <span id="liStyle"><i class="fas fa-angle-left"></i></span> Contact Us</li>
+                            <li> <span id="liStyle"><i class="fas fa-angle-left"></i></span>Reservation</li>
+                            <li> <span id="liStyle"><i class="fas fa-angle-left"></i></span>Privacy Policy</li>
+                            <li> <span id="liStyle"><i class="fas fa-angle-left"></i></span>Terms & Condition</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="sameColor fst-italic fw-bold mb-3">Contact</h5>
+                    <ul class="text-white list-unstyled">
+                        <li class="mb-3"> <span> <i class="fas fa-map-marker-alt fs-4 me-2"></i> </span> 123 Street, New
+                            York, USA
+                        </li>
+
+                        <li class="mb-3"> <i class="fas fa-phone-alt fs-4 me-2"></i> +01774138442</li>
+
+                        <li class="mb-3"> <i class="far fa-envelope fs-4 me-2"></i> mnroy293@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="sameColor fst-italic fw-bold mb-3">Opening</h5>
+                    <h5 class="text-white">Monday - Saturday</h5>
+                    <p class="text-white">09AM - 09PM</p>
+                    <h5 class="text-white">Sunday</h5>
+                    <p class="text-white">10AM - 08Pm</p>
+                </div>
+                <div class=" col-md-3">
+                    <h5 class="sameColor fst-italic fw-bold mb-3">Newsletter</h5>
+                    <p class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+
+                    <div class="d-flex p-2 shadow rounded-3 bg-light">
+                        <div><span class="text-dark text-muted">Your Email</span></div>
+                        <div>
+                            <button class="btn btnStyle2">SIGNUP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <h2>Thsi is headding tag</h2>
+    </footer>
+</body>
+
+</html>
